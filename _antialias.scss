@@ -1,0 +1,8 @@
+// Enable antialiasing
+// http://maximilianhoffmann.com/posts/better-font-rendering-on-osx
+// https://github.com/BKWLD/sass-library/blob/master/_antialiased.scss
+
+@mixin antialias {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
