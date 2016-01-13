@@ -1,0 +1,15 @@
+// Simple way to create container
+
+// $max-width can be any size statement
+// Ex. : 768px, 38em, 38rem, etc
+// Sample usage: @include make-container(768px)
+
+@mixin make-container($max-width) {
+  @if ($max-width) {
+    max-width: $max-width;
+  }
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:   auto;
+  margin-right:  auto;
+}
